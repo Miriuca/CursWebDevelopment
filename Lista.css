@@ -1,0 +1,62 @@
+div {
+  margin: 3px;
+  padding: 2px;
+}
+
+.foaie {
+  background-image: linear-gradient(to bottom right, #89a6fb, #78c3fb, #16e0bd);
+  height: 100%;
+}
+
+.lista-titlu > input {
+  font-size: 300%;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+.magtitlu > input[type="text"] {
+  font-size: 200%;
+  background-color: transparent;
+  font-family: Times New Roman;
+}
+
+input:not([type="checkbox"]):not([value="adauga"]) {
+  background-color: transparent;
+  border: transparent;
+}
+
+.titlu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.produs > input[type="text"] {
+  font-family: Times New Roman;
+}
+
+input[type="text"]:focus {
+  color: rgb(156, 35, 52);
+}
+
+.produs > input[type="number"] {
+  width: 35px;
+  font-family: Times New Roman;
+}
+
+.magazin {
+  margin-top: 30px;
+}
+
+.lista-titlu > input[type="text"]:hover {
+  font-weight: bold;
+}
+
+.form-select {
+  width: 90px;
+  display: inline-block;
+}
+
+.btn-outline-danger {
+  border: transparent;
+}
